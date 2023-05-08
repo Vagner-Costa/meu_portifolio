@@ -1,11 +1,11 @@
 <script setup>
   import {onBeforeMount} from 'vue'
   import {useStore} from 'vuex'
-  import bannerInicial from '@/components/bannerInicial.vue'
-  import sobreMim from '@/components/sobreMim.vue'
-  import meusConhecimentos from '@/components/meusConhecimentos.vue'
-  import meusProjetos from '@/components/meusProjetos.vue'
-  import compFinal from '@/components/compFinal.vue'
+  import bannerInicial from '../components/bannerInicial.vue'
+  import sobreMim from '../components/sobreMim.vue'
+  import meusConhecimentos from '../components/meusConhecimentos.vue'
+  import meusProjetos from '../components/meusProjetos.vue'
+  import compFinal from '../components/compFinal.vue'
 
   const store = useStore()
 
